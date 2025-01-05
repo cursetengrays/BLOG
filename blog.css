@@ -35,9 +35,6 @@ ul.topnav li a:hover:not(.active) { text-decoration: underline #793A67 solid 5px
 ul.topnav li a.active { text-decoration: underline #793A67 solid 5px;
                                     text-underline-offset: 12px; }
 
-@media screen and (max-width: 900px) { ul.topnav li.right, 
-                                       ul.topnav li { float:none; } }
-
 .row:after { content: ""; 
         display: table;
         clear: both; }
@@ -77,11 +74,6 @@ ul.topnav li a.active { text-decoration: underline #793A67 solid 5px;
                height: 355px;
                line-height:22px; } 
 
-
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0; } }
 
 .title { background-color: #793A67;
          color: #E4D1E5;
